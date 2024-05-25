@@ -8,7 +8,6 @@ export const HomePage = () => {
   <div>
 <Header />
 <Rooms />
-<Detail />
 <Footer />
 
   </div>)
