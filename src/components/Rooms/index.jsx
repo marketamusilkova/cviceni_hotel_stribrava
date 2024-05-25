@@ -19,7 +19,7 @@ export const Rooms = () => {
   if (rooms === null) {
     return <p>Loading...</p>;
   }
-  console.log(selectedId);
+  
   return (
     <section className="dark">
       <div className="container">

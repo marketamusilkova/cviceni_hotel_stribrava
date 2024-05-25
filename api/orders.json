@@ -1,36 +1,5 @@
 [
   {
-    "id": 0,
-    "od": {
-      "field1": "2024-05-25"
-    },
-    "do": {
-      "field2": "2024-05-26"
-    },
-    "pocetOsob": {
-      "field3": "1"
-    },
-    "stravovani": {
-      "select": "Plná penze"
-    },
-    "mazlicek": {
-      "check1": ""
-    },
-    "pristylka": {
-      "check2": ""
-    },
-    "bezbarier": {
-      "check3": ""
-    },
-    "email": {
-      "field4": "mrs.musilkova@gmail.com"
-    },
-    "telefon": {
-      "field5": "777 123 456"
-    },
-    "stav": "new"
-  },
-  {
     "id": 1,
     "od": "2024-05-25",
     "do": "2024-05-26",
@@ -41,6 +10,19 @@
     "bezbarier": "",
     "email": "mrs.musilkova@gmail.com",
     "telefon": "777 123 456 ",
+    "stav": "new"
+  },
+  {
+    "id": 2,
+    "od": "2024-05-25",
+    "do": "2024-06-01",
+    "pocetOsob": "3",
+    "stravovani": "Polopenze",
+    "mazlicek": "",
+    "pristylka": "",
+    "bezbarier": "",
+    "email": "mrs.musilkova@gmail.com",
+    "telefon": "777 123 456",
     "stav": "new"
   }
 ]
