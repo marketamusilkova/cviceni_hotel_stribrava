@@ -10,7 +10,7 @@
     "bezbarier": "",
     "email": "mrs.musilkova@gmail.com",
     "telefon": "777 123 456 ",
-    "stav": "new"
+    "stav": "rejected"
   },
   {
     "id": 2,
@@ -23,6 +23,19 @@
     "bezbarier": "",
     "email": "mrs.musilkova@gmail.com",
     "telefon": "777 123 456",
+    "stav": "new"
+  },
+  {
+    "id": 3,
+    "od": "2024-05-26",
+    "do": "2024-06-02",
+    "pocetOsob": "4",
+    "stravovani": "Plná penze",
+    "mazlicek": "",
+    "pristylka": true,
+    "bezbarier": "",
+    "email": "pajus.kratka@gmail.com",
+    "telefon": "721384760",
     "stav": "new"
   }
 ]
