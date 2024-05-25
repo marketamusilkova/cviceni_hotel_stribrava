@@ -1,5 +1,15 @@
-import './style.css';
+import { Detail } from "../../components/Detail";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import { Rooms } from "../../components/Rooms";
 
 export const HomePage = () => {
-  return <div></div>;
+  return (
+  <div>
+<Header />
+<Rooms />
+<Detail />
+<Footer />
+
+  </div>)
 };
