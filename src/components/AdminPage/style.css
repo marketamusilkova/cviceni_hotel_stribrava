@@ -1,5 +1,33 @@
 .kartaObjednávky {
   border: 1px solid black;
-  margin: 30px;
-  padding: 10px;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  color: white;
+  margin: 0.5rem 0.5rem 0.5rem 0rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.button1 {
+  background-color: green;
+}
+
+.button2 {
+  background-color: red;
+}
+
+button:hover {
+  background-color: #eC845b;
+  cursor: pointer;
+}
+
+button.wide {
+  display: block;
+  width: 100%;
+  padding: 1rem;
 }

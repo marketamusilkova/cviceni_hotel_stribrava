@@ -1,3 +1,4 @@
+
 .container {
   max-width: 960px;
   margin-right: auto;
@@ -51,6 +52,7 @@ section.dark *::-webkit-scrollbar-thumb:hover {
 
 section.light {
   background-color: #e8e9f3;
+  color: black;
 }
 
 

@@ -14,12 +14,9 @@ export const Detail = ({ room }) => {
 
             <p>{room.description}</p>
           </div>
-          <Form cena={room.price}/>
+          <Form cena={room.price} />
         </div>
       </div>
     </section>
   );
 };
-
-
-

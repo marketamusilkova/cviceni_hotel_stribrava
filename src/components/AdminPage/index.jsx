@@ -73,9 +73,10 @@ export const AdminPage = () => {
             <div>příjezd: {order.od}</div>
             <div>odjezd: {order.do}</div>
             <div>stav: {order.stav}</div>
-          </div>
-          <button onClick={() => confirm(order.id)}>Potvrdit objednávku</button>
-          <button onClick={() => reject(order.id)}>Odmítnout objednávku</button>
+          
+          <button className='button1' onClick={() => confirm(order.id)}>Potvrdit objednávku</button>
+          <button className='button2' onClick={() => reject(order.id)}>Odmítnout objednávku</button>
+        </div>
         </>
       ))}
     </div>

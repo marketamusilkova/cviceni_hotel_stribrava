@@ -50,5 +50,18 @@
     "email": "mrs.musilkova@gmail.com",
     "telefon": "888 123 456",
     "stav": "confirmed"
+  },
+  {
+    "id": 5,
+    "od": "2024-05-18",
+    "do": "2024-05-26",
+    "pocetOsob": "1",
+    "stravovani": "Snídaně",
+    "mazlicek": true,
+    "pristylka": true,
+    "bezbarier": "",
+    "email": "pajus.kratka",
+    "telefon": "721 789 987",
+    "stav": "rejected"
   }
 ]
