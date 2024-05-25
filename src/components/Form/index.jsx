@@ -1,35 +1,65 @@
 import "./style.css"
 
+const handleSubmit = (e) => {
+  e.preventDefault()
+}
+
 export const Form = () => {
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="form-fields">
         <label htmlFor="field1" className="field-label">
-          Field 1:
+          Od:
         </label>
-        <input id="field1" className="field-input" type="text" />
+        <input id="field1" className="field-input" type="date" />
 
         <label htmlFor="field2" className="field-label">
-          Field 2:
+          Do:
         </label>
-        <input id="field2" className="field-input" type="text" />
+        <input id="field2" className="field-input" type="date" />
+
+        <label htmlFor="field3" className="field-label">
+          Počet osob:
+        </label>
+        <input id="field3" className="field-input" type="text" />
 
         <label htmlFor="select" className="field-label">
-          Select:
+          Stravování:
         </label>
         <select id="select" className="field-input">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
+          <option>Snídaně</option>
+          <option>Polopenze</option>
+          <option>Plná penze</option>
         </select>
 
         <label htmlFor="check1" className="field-label">
-          Checkbox 1:
+          Domácí mazlíček:
         </label>
         <input id="check1" className="field-input" type="checkbox" />
+
+        <label htmlFor="check2" className="field-label">
+          Přistýlka pro dítě:
+        </label>
+        <input id="check2" className="field-input" type="checkbox" />
+
+        <label htmlFor="check3" className="field-label">
+          Bezbariérový přístup:
+        </label>
+        <input id="check3" className="field-input" type="checkbox" />
+
+        <label htmlFor="field5" className="field-label">
+          E-mail:
+        </label>
+        <input id="field5" className="field-input" type="text" />
+
+        <label htmlFor="field6" className="field-label">
+          Telefon:
+        </label>
+        <input id="field6" className="field-input" type="text" />
+
       </div>
-      <button className="wide">Submit</button>
+      <div>Celková cena za pobyt: Kč</div>
+      <button className="wide" onClick={() => (alert("Poptávka odeslána"))}>Odeslat poptávku</button>
     </form>
   );
 };
