@@ -72,6 +72,10 @@ export const AdminPage = () => {
             <h2>objednávka číslo: {order.id}</h2>
             <div>příjezd: {order.od}</div>
             <div>odjezd: {order.do}</div>
+            <div>počet osob: {order.pocetOsob}</div>
+            <div>stravování: {order.stravovani}</div>
+            <div>E-mail: {order.email}</div>
+            <div>Tel.: {order.telefon}</div>
             <div>stav: {order.stav}</div>
           
           <button className='button1' onClick={() => confirm(order.id)}>Potvrdit objednávku</button>
