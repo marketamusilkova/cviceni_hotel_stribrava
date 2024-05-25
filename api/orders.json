@@ -23,7 +23,7 @@
     "bezbarier": "",
     "email": "mrs.musilkova@gmail.com",
     "telefon": "777 123 456",
-    "stav": "new"
+    "stav": "confirmed"
   },
   {
     "id": 3,
@@ -36,6 +36,19 @@
     "bezbarier": "",
     "email": "pajus.kratka@gmail.com",
     "telefon": "721384760",
-    "stav": "new"
+    "stav": "rejected"
+  },
+  {
+    "id": 4,
+    "od": "2024-05-25",
+    "do": "2024-05-26",
+    "pocetOsob": "1",
+    "stravovani": "Snídaně",
+    "mazlicek": false,
+    "pristylka": true,
+    "bezbarier": "",
+    "email": "mrs.musilkova@gmail.com",
+    "telefon": "888 123 456",
+    "stav": "confirmed"
   }
 ]

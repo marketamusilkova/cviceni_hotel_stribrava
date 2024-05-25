@@ -37,7 +37,7 @@ export const Rooms = () => {
                 src={`http://localhost:4000/assets/${room.src}`}
               />
               <div className="card__title">{room.name}</div>
-              <div className="card__body">{room.price}</div>
+              <div className="card__body">{room.price} Kč/osoba</div>
             </div>
           ))}
         </div>
